@@ -26,7 +26,7 @@ public class GoogleTests {
     public void testSearchFieldPresence() {
         driver.get("https://www.google.com");
         WebElement searchBox = driver.findElement(By.name("q"));
-        assertNotNull("Search box should be present", searchBox);
+        assertNotNull("Search box should be present on webpage", searchBox);
     }
 
     @Test
