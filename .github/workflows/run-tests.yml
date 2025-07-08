@@ -3,8 +3,6 @@ name: Run Selenium Tests
 on:
   pull_request:
     types: [synchronize, labeled]
-    # branches: 
-    #   - main
 
 jobs:
   test:
