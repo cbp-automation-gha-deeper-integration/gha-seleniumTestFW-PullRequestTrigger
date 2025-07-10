@@ -6,8 +6,8 @@ on:
   # workflow_dispatch:
   pull_request:
     branches:
-      - main
-      - gha-integration-pull-test
+      - "**"
+      # - gha-integration-pull-test
     # types: [synchronize, labeled]
 
 jobs:
