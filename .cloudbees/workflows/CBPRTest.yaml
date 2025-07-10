@@ -8,22 +8,13 @@ on:
 
 jobs:
   test:
-    # runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: cloudbees-io/checkout@v1
 
     - name: Set up Java
       uses: docker://registry-1.docker.io/library/openjdk:11-jdk
-      # with:
-      #   java-version: '11'
-      #   distribution: 'temurin'
-
-    - name: Install Google Chrome
       run: |
         sudo apt-get update
         sudo apt-get install -y google-chrome-stable
-
-    - name: Run tests with Maven
-      run: mvn test
+        mvn test
