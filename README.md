@@ -1,6 +1,4 @@
-
 # Selenium WebDriver Java + GitHub Actions test..
-
 
 ## 🧪 Tests
 

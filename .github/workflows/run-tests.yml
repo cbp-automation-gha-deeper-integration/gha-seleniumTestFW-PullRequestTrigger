@@ -25,3 +25,5 @@ jobs:
 
     - name: Run tests with Maven
       run: mvn test
+      
+      
