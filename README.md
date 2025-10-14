@@ -12,3 +12,4 @@ Push code to your GitHub repo – the workflow triggers automatically via GitHub
 ### Run locally
 ```bash
 mvn test
+
