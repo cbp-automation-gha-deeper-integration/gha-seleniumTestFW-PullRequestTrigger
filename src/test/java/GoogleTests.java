@@ -33,7 +33,7 @@ public class GoogleTests {
     public void testClickGmailLink() {
         driver.get("https://www.google.com");
         WebElement gmailLink = driver.findElement(By.linkText("Gmail"));
-        assertTrue("Gmail link should be visible", gmailLink.isDisplayed());
+        assertTrue("Gmail link should be visible on web page", gmailLink.isDisplayed());
         gmailLink.click();
     }
 
